@@ -1,0 +1,48 @@
+body, html, .App {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+#quote-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+#text {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#author {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#tweet-quote, #new-quote {
+  background: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#tweet-quote:hover, #new-quote:hover {
+  background: #0056b3;
+}
